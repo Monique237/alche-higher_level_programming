@@ -1,3 +1,3 @@
 #!/bin/bash
-# Display the response body only when the HTTP status code is 200
+# Sends a GET request and displays the body only for a 200 status code
 curl -s -f "$1"
